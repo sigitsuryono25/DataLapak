@@ -13,4 +13,9 @@
     <string name="start_transaction">Mulai Transaksi</string>
     <string name="with_your_apps_account">dengan Akun Apps Anda</string>
     <string name="your_account">Akun Anda</string>
+    <string name="pasar">Pasar</string>
+    <string name="lokasi_pasar">Lokasi Paasr</string>
+    <string name="phone">Telepon</string>
+    <string name="email">Email</string>
+    <string name="welcome">Selamat Datang</string>
 </resources>

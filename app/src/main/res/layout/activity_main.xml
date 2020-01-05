@@ -15,6 +15,7 @@
         android:useDefaultMargins="true">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/startTransaction"
             android:layout_columnWeight="1"
             android:layout_marginEnd="1dp"
             android:elevation="8dp">
@@ -30,6 +31,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/youtProfile"
             android:layout_columnWeight="1"
             android:layout_marginStart="1dp"
             android:elevation="8dp">
@@ -47,13 +49,11 @@
     </GridLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/contactUs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_margin="5dp"
-        android:elevation="5dp"
-        android:src="@drawable/ic_letter_svgrepo_com"
-        android:tooltipText="@string/contact_us" />
+        android:layout_margin="10dp"
+        android:elevation="4dp"
+        android:src="@drawable/ic_letter_svgrepo_com" />
 </RelativeLayout>
